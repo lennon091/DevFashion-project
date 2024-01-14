@@ -1,0 +1,22 @@
+.main_login_cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.custom-form {
+    margin: auto;
+    padding: 20px 40px;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+}
+
+#login {
+    width: 30%;
+}
+
+#cadastro {
+    width: 60%;
+}
