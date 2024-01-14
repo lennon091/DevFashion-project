@@ -1,0 +1,22 @@
+{
+  "name": "devfasjion/devfashion",
+  "description": "Dev Fashion",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Francisco Santos",
+      "email": "franciscojuniordh@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DevFashion\\Src\\": "src/",
+      "DevFashion\\Core\\": "core/"
+    }
+  },
+  "require": {
+    "ext-mbstring": "*",
+    "ext-pdo": "*"
+  }
+}
